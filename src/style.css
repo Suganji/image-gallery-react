@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    border-bottom: 2px grey solid;
+  }
+  .gallery {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: bisque;
+    justify-content: space-between;
+    
+  }
+  .gal{
+    border: solid black 2px;
+    text-align: center;
+    background-color: white;
+    width:350px;
+  }
+  .gallery img {
+    
+    flex-basis: 17%;
+    flex-grow: 1;
+    height: 200px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:90%;
+  }
